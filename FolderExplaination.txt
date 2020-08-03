@@ -1,0 +1,10 @@
+Module 5 (MED5192) Proof of Concept phase work is located in the //MED5192 Proof of Concept phase// folder
+
+Module 6 (MED5120) Prototype phase work is located in the //MED5120 Prototype phase// folder
+
+Module 5's folder contains the un-built project (which can be opened in Unity)
+Module 6's folder contains both the un-built project (which can be opened in Unity) and a built version (which can be run as a .exe file on Windows only)
+
+The //Script Contents.xlsx// is a Excel document detailing who contibuted to which scripts, their locations, and creation dates.
+
+A video demo of the game can be found at _____________________
