@@ -1,0 +1,255 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6580641263994631107
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6580641263994631133}
+  - component: {fileID: 9133071825704654925}
+  - component: {fileID: 6062936345867866367}
+  m_Layer: 0
+  m_Name: _Audio Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6580641263994631133
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6580641263994631107}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9133071825704654925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6580641263994631107}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8aec6eff78021ea4280bcd980825b4cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneMusicTracks:
+  - sceneName: mainMenu
+    musicTracks:
+    - name: Seal Music
+      loop: 1
+      oneShot: 0
+      audioClip: {fileID: 8300000, guid: 133a1434fbc6a3349a05a8a77aa4d759, type: 3}
+  - sceneName: IntroScene
+    musicTracks:
+    - name: March of the Seals 2
+      loop: 1
+      oneShot: 0
+      audioClip: {fileID: 8300000, guid: e68f34ac39dd4d94c82f87952017a94d, type: 3}
+  - sceneName: CreditsScene
+    musicTracks:
+    - name: March of the Seals 2
+      loop: 1
+      oneShot: 0
+      audioClip: {fileID: 8300000, guid: e68f34ac39dd4d94c82f87952017a94d, type: 3}
+  - sceneName: CodexScene
+    musicTracks:
+    - name: March of the Seals 2
+      loop: 1
+      oneShot: 0
+      audioClip: {fileID: 8300000, guid: e68f34ac39dd4d94c82f87952017a94d, type: 3}
+  - sceneName: AchievementsScene
+    musicTracks:
+    - name: March of the Seals 2
+      loop: 1
+      oneShot: 0
+      audioClip: {fileID: 8300000, guid: e68f34ac39dd4d94c82f87952017a94d, type: 3}
+  - sceneName: MAP
+    musicTracks:
+    - name: March of the Seals 3
+      loop: 0
+      oneShot: 1
+      audioClip: {fileID: 8300000, guid: 188a8aa215065a24398d91d2d9151371, type: 3}
+  soundEffects:
+  - name: Wilhelm
+    audioClip: {fileID: 8300000, guid: df96fd4101635ff46ab35fd9b0d45671, type: 3}
+  - name: Seal
+    audioClip: {fileID: 8300000, guid: 7bd3357820cd2ff4ba8b112f3173aaa8, type: 3}
+  - name: Seal Explosion
+    audioClip: {fileID: 8300000, guid: af03cc6272c34c0488052c1f7378ac51, type: 3}
+  - name: Mario Powerup
+    audioClip: {fileID: 8300000, guid: 5e674bd17329e73468cc80ad5855f27a, type: 3}
+  - name: Mario Hurt
+    audioClip: {fileID: 8300000, guid: 437718526b8e6f04689028af105af817, type: 3}
+  - name: Mario Burn
+    audioClip: {fileID: 8300000, guid: 160d7c39bda02834e8c5d5cbb71e83ec, type: 3}
+  - name: Believe
+    audioClip: {fileID: 8300000, guid: b132364b9d1e1e643bc3eb0f1755fe0c, type: 3}
+  - name: Laser Loop
+    audioClip: {fileID: 8300000, guid: 27e1672748f1415438b8da6d7ba140ef, type: 3}
+  - name: GunShot
+    audioClip: {fileID: 8300000, guid: bff3fc61765a08947becce87ebcbaa3a, type: 3}
+  - name: Laser Disable
+    audioClip: {fileID: 8300000, guid: 8b88bfe82008ec8438b48396894d4b5f, type: 3}
+  - name: SwordSwipe
+    audioClip: {fileID: 8300000, guid: ab6faeb0077ce4b4cb02b5651df6ba3a, type: 3}
+  - name: Laser Shot
+    audioClip: {fileID: 8300000, guid: 3cb6b4b5626f4dd44a8bc476e9153d6f, type: 3}
+  - name: Charge Loop
+    audioClip: {fileID: 8300000, guid: c2161efbdc695884b864ee8d0a382adb, type: 3}
+  - name: Typewriter Key
+    audioClip: {fileID: 8300000, guid: 726301545242e5049bc87b3c94beeb1c, type: 3}
+  - name: Typewriter Ding
+    audioClip: {fileID: 8300000, guid: 67dfb32b6a720094b9c59180228557a3, type: 3}
+  - name: None
+    audioClip: {fileID: 0}
+  - name: Gun SFX2
+    audioClip: {fileID: 8300000, guid: 342770e99f94d584a8702f679799a9a8, type: 3}
+  - name: Reload
+    audioClip: {fileID: 8300000, guid: 2bab140e9a1a42b469d3a733aae5523a, type: 3}
+  - name: Wall Hit
+    audioClip: {fileID: 8300000, guid: 0a51923d958e5894cbc991ff8a942753, type: 3}
+  - name: Popup
+    audioClip: {fileID: 8300000, guid: d7a5a700fc6522040b5bfaca74d31eeb, type: 3}
+  - name: EnemyMeleeHit
+    audioClip: {fileID: 8300000, guid: 0a51923d958e5894cbc991ff8a942753, type: 3}
+  - name: Explosion
+    audioClip: {fileID: 8300000, guid: df96fd4101635ff46ab35fd9b0d45671, type: 3}
+  - name: Enemy2Shoot
+    audioClip: {fileID: 8300000, guid: 342770e99f94d584a8702f679799a9a8, type: 3}
+  - name: Enemy3Shoot
+    audioClip: {fileID: 8300000, guid: bff3fc61765a08947becce87ebcbaa3a, type: 3}
+  - name: GeneratorHit
+    audioClip: {fileID: 8300000, guid: d47563fec4b8fe64d90d73d066d80631, type: 3}
+  - name: Footstep1
+    audioClip: {fileID: 8300000, guid: 9121301d17c7b5949b7e2de934f6ed2b, type: 3}
+  - name: Footstep2
+    audioClip: {fileID: 8300000, guid: 401dccb2d3e9f6a458b96681b5245f7d, type: 3}
+  - name: Footstep3
+    audioClip: {fileID: 8300000, guid: 3df16e3870b30554e8065d2385d1651e, type: 3}
+  - name: Footstep4
+    audioClip: {fileID: 8300000, guid: 8311019c9af1b0945ba5a197242a34dc, type: 3}
+  - name: Footstep5
+    audioClip: {fileID: 8300000, guid: 891d5932321d5944c8a566e3f7f691a3, type: 3}
+  - name: TestVoiceLine
+    audioClip: {fileID: 8300000, guid: 33d130866f90c9b43b9bda08170740cf, type: 3}
+  - name: Click
+    audioClip: {fileID: 8300000, guid: f9a51a4a1b7d46e4ca800d2189ffa8bc, type: 3}
+  - name: Click_PageFlip
+    audioClip: {fileID: 8300000, guid: 03d992f09e59ed94987e07d93cbd42f0, type: 3}
+  - name: EnemyDSFX
+    audioClip: {fileID: 8300000, guid: 5a352853d0aac09418f88597a0596e76, type: 3}
+  - name: CogCollect
+    audioClip: {fileID: 8300000, guid: f5deff80b1fec40468c43f8e6bc904d5, type: 3}
+  - name: HealthCollect
+    audioClip: {fileID: 8300000, guid: 7cac71a5921afb44eafb1a6f2ad4da79, type: 3}
+  prefabSoundSource: {fileID: 2738532834754265132, guid: c053cf90b98ebd8438265eff97f52cff,
+    type: 3}
+  audioSourceMusic: {fileID: 6062936345867866367}
+--- !u!82 &6062936345867866367
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6580641263994631107}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
